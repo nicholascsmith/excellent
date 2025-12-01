@@ -73,6 +73,10 @@ sudo dnf remove -y waybar
 
 [Install Heroic Games Launcher](https://flathub.org/en/apps/com.heroicgameslauncher.hgl)
 
+#### Kopia
+
+[Install Kopia](https://kopia.io/docs/installation/#linux-installation-using-rpm-redhat-centos-fedora)
+
 ## Configuration
 
 ### Git SSH

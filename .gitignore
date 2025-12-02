@@ -1,17 +1,10 @@
-# Ignore everything by default
 /*
+.bash_history
+.bash_logout
 
-# Track these specific files and directories
 !/.gitignore
 !/.bashrc
 !/.bash_profile
 !/excellent.sh
 !/README.md
-!/.config/
 !/dots
-
-# Explicitly ignore bash history
-.bash_history
-.bash_logout
-
-# Within .config, exclusions are handled by .config/.gitignore

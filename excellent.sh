@@ -25,7 +25,8 @@ sudo dnf install -y \
     zoxide \
     mako \
     NetworkManager-tui \
-    npm
+    npm \
+    transmission
 
 echo "Enabling RPM Fusion..."
 sudo dnf install -y \

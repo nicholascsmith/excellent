@@ -35,7 +35,7 @@ chmod +x ~/excellent.sh
 sudo nano /etc/sddm.conf
 ```
 
-**Action:** In the `[AutoLogin]` section, update:
+**In the `[AutoLogin]` section, update:**
 
 - `#Relogin=` → **`Relogin=sway`**
 - `#Session=` → **`Session=sway`**
@@ -88,7 +88,7 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
-**Action:** Add the output to GitHub → Settings → SSH and GPG keys → New SSH key
+**Add the output to GitHub → Settings → SSH and GPG keys → New SSH key**
 
 ### Brave Browser
 
@@ -107,69 +107,50 @@ cat ~/.ssh/id_ed25519.pub
 
 **Cookie Deletion Whitelist:**
 
-- https://dash.cloudflare.com/login
-- https://github.com/login
+- https://dash.cloudflare.com
+- https://github.com
 - https://x.com
-- https://my.nextdns.io/login
+- https://my.nextdns.io
 - https://www.icloud.com
 - https://music.apple.com
-
-**Bookmarks:**
-
-- NextDNS
-- Reddit
-
-### Nautilus
-
-**Action:** Bookmark folders
+- https://proton.me
+- https://tuta.com
+- https://codeberg.org
 
 ## Keybindings
 
-### Application Shortcuts
-
-- `Super+t` - Terminal
-- `Super+b` - Browser
-- `Super+c` - Code (text editor)
-- `Super+n` - Network (VPN)
-- `Super+Shift+n` - Network (Bluetooth)
-- `Super+v` - Volume
-- `Super+f` - Files
-- `Super+r` - Record
-
-### Web Apps
-
-- `Super+Return` - Proton apps
-- `Super+Shift+Return` - Tutanota mail
-- `Super+slash` - AI #1
-- `Super+Shift+slash` - AI #2
-- `Super+y` - YouTube
-- `Super+a` - Archives
-- `Super+g` - Games
-- `Super+x` - X
-- `Super+m` - Music
-- `Super+i` - iCloud Notes
-- `Super+Shift+i` - iCloud Drive
-- `Super+d` - Development (repositories)
-- `Super+Shift+d` - Development (web services)
-
-### Utilities
-
-- `Super+s` - Storage
-- `Super+p` - Printers
-- `Super+q` - Quit window
-- `Super+Shift+q` - Lock screen
-- `Super+Escape` - Reload sway config
-- `Super+space` - Toggle floating window
 - `Super+arrow` - Focus window
 - `Super+Shift+arrow` - Move window
-
-### Workspaces
-
 - `Super+Tab` - Cycle workspaces
-
-### Media Keys
-
+- `Super+Escape` - Reload Sway
+- `Super+space` - Terminal
+- `Super+Shift+space` - Toggle floating window
+- `Super+Return` - Games
+- `Super+slash` - AI
+- `Super+a` - Archives
+- `Super+b` - Browser
+- `Super+c` - Code (text editor)
+- `Super+d` - Disks
+- `Super+e` - Email #1
+- `Super+Shift+e` - Email #2
+- `Super+f` - Files
+- `Super+g` - Git Repositories #1
+- `Super+Shift+g` - Git Repositories #2
+- `Super+i` - iCloud Notes
+- `Super+Shift+i` - iCloud Drive
+- `Super+l` - Lock
+- `Super+m` - Music
+- `Super+n` - Network (VPN)
+- `Super+Shift+n` - Network (Bluetooth)
+- `Super+p` - Printers
+- `Super+q` - Quit
+- `Super+r` - Record
 - `Print` - Screenshot
+- `Super+t` - Torrent
+- `Super+v` - Volume
+- `Super+w` - Websites
+- `Super+x` - X
+- `Super+y` - YouTube
 
 ## License
 

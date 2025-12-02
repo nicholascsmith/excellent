@@ -6,8 +6,6 @@
 
 set -euo pipefail
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
 echo "=================================="
 echo "Nicholas's Excellent Configuration"
 echo "=================================="
@@ -17,7 +15,6 @@ echo ""
 
 echo "Installing packages..."
 sudo dnf install -y \
-    nautilus \
     jetbrains-mono-fonts \
     git \
     ripgrep \
@@ -67,8 +64,8 @@ cp -r ~/excellent/dots/* ~/.config/
 echo "Removing packages..."
 rm -rf ~/excellent
 killall dunst 2>/dev/null || true
-sudo dnf remove -y firefox thunar rofi dunst || true
-rm -rf ~/.mozilla ~/.config/Thunar || true
+sudo dnf remove -y firefox rofi dunst || true
+rm -rf ~/.mozilla || true
 
 echo ""
 echo "Done!"

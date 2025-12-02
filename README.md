@@ -119,14 +119,14 @@ cat ~/.ssh/id_ed25519.pub
 
 ## Keybindings
 
-- `Super+arrow` - Focus window
-- `Super+Shift+arrow` - Move window
+- `Super+Arrow` - Focus window
+- `Super+Shift+Arrow` - Move window
 - `Super+Tab` - Cycle workspaces
 - `Super+Escape` - Reload Sway
-- `Super+space` - Terminal
-- `Super+Shift+space` - Toggle floating window
+- `Super+Space` - Terminal
+- `Super+Shift+Space` - Toggle floating window
 - `Super+Return` - Games
-- `Super+slash` - AI
+- `Super+Slash` - AI
 - `Super+a` - Archives
 - `Super+b` - Browser
 - `Super+c` - Code (text editor)

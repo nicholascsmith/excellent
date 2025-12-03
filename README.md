@@ -18,57 +18,35 @@ chmod +x ~/excellent.sh
 
 ## Next Steps
 
-### System Configuration
+### Application Installation
 
-#### SDDM Auto-Login
+- [Install Brave Browser](https://brave.com/linux/)
+- [Install Zed Editor](https://zed.dev/download)
+- [Install Claude Code](https://code.claude.com/docs/en/setup)
+- [Install NextDNS](https://github.com/nextdns/nextdns/wiki#supported-platforms)
+- [Install Proton VPN](https://protonvpn.com/support/official-linux-vpn-fedora/)
+- [Install Heroic Games Launcher](https://flathub.org/en/apps/com.heroicgameslauncher.hgl)
+- [Install Kopia](https://kopia.io/docs/installation/#linux-installation-using-rpm-redhat-centos-fedora)
+
+## Configuration
+
+### SDDM Auto-Login
 
 ```bash
 sudo nano /etc/sddm.conf
 ```
 
-**In the `[AutoLogin]` section, update:**
+In the **`[AutoLogin]`** section, update:
 
 - `#Relogin=` → **`Relogin=sway`**
 - `#Session=` → **`Session=sway`**
 - `#User=` → **`User=ncarters`**
 
-#### Remove Waybar
+### Remove Waybar (Optional)
 
 ```bash
 sudo dnf remove -y waybar
 ```
-
-### Application Installation
-
-#### Brave Browser
-
-[Install Brave Browser](https://brave.com/linux/)
-
-#### Zed Editor
-
-[Install Zed Editor](https://zed.dev/download)
-
-#### Claude Code
-
-[Install Claude Code](https://code.claude.com/docs/en/setup)
-
-#### NextDNS
-
-[Install NextDNS](https://github.com/nextdns/nextdns/wiki#supported-platforms)
-
-#### Proton VPN
-
-[Install Proton VPN](https://protonvpn.com/support/official-linux-vpn-fedora/)
-
-#### Heroic Games Launcher
-
-[Install Heroic Games Launcher](https://flathub.org/en/apps/com.heroicgameslauncher.hgl)
-
-#### Kopia
-
-[Install Kopia](https://kopia.io/docs/installation/#linux-installation-using-rpm-redhat-centos-fedora)
-
-## Configuration
 
 ### Git SSH
 
@@ -79,14 +57,14 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
-**Add the output to GitHub → Settings → SSH and GPG keys → New SSH key**
+Add the output to **GitHub** → **Settings** → **SSH and GPG keys** → **New SSH key**
 
 ### Brave Browser
 
 **Extensions:**
 
-- Proton Pass
 - Dark Reader
+- Proton Pass
 - SponsorBlock for YouTube
 
 **Toolbar:**
@@ -98,15 +76,15 @@ cat ~/.ssh/id_ed25519.pub
 
 **Cookie Deletion Whitelist:**
 
+- https://codeberg.org
 - https://dash.cloudflare.com
 - https://github.com
-- https://x.com
-- https://my.nextdns.io
-- https://www.icloud.com
+- https://icloud.com
 - https://music.apple.com
+- https://my.nextdns.io
 - https://proton.me
 - https://tuta.com
-- https://codeberg.org
+- https://x.com
 
 ## Keybindings
 

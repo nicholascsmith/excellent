@@ -30,12 +30,12 @@ chmod +x ~/excellent.sh
 ## Applications
 
 - [Install Brave Browser](https://brave.com/linux/)
-- [Install Zed Editor](https://zed.dev/download)
 - [Install Claude Code](https://code.claude.com/docs/en/setup)
-- [Install NextDNS](https://github.com/nextdns/nextdns/wiki#supported-platforms)
-- [Install Proton VPN](https://protonvpn.com/support/official-linux-vpn-fedora/)
 - [Install Heroic Games Launcher](https://flathub.org/en/apps/com.heroicgameslauncher.hgl)
 - [Install Kopia](https://kopia.io/docs/installation/#linux-installation-using-rpm-redhat-centos-fedora)
+- [Install NextDNS](https://github.com/nextdns/nextdns/wiki#supported-platforms)
+- [Install Proton VPN](https://protonvpn.com/support/official-linux-vpn-fedora/)
+- [Install Zed Editor](https://zed.dev/download)
 
 ## Configuration
 

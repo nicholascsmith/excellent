@@ -2,13 +2,24 @@
 
 An excellent configuration for Fedora Sway Spin.
 
-## Connect to Network
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Applications](#applications)
+- [Configuration](#configuration)
+- [Keybindings](#keybindings)
+
+## Getting Started
+
+### Connect to Network
+
+Replace **`<SSID>`** and **`<PASSWORD>`** with **your network credentials.**
 
 ```bash
-nmcli device wifi connect "[SSID]" password "[PASSWORD]"
+nmcli device wifi connect "<SSID>" password "<PASSWORD>"
 ```
 
-## Run Script
+### Run Script
 
 ```bash
 curl -o ~/excellent.sh https://raw.githubusercontent.com/nicholascsmith/excellent/master/excellent.sh
@@ -16,9 +27,7 @@ chmod +x ~/excellent.sh
 ~/excellent.sh
 ```
 
-## Next Steps
-
-### Application Installation
+## Applications
 
 - [Install Brave Browser](https://brave.com/linux/)
 - [Install Zed Editor](https://zed.dev/download)

@@ -59,8 +59,10 @@ sudo dnf remove -y waybar
 
 ### Git SSH
 
+Replace **`<EMAIL>`** with **your email.**
+
 ```bash
-ssh-keygen -t ed25519 -C "[EMAIL]"
+ssh-keygen -t ed25519 -C "<EMAIL>"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub

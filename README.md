@@ -2,15 +2,6 @@
 
 An excellent configuration for Fedora Sway Spin.
 
-## Table of Contents
-
-- [Connect to Network](#connect-to-network)
-- [Run Script](#run-script)
-- [Next Steps](#next-steps)
-- [Configuration](#configuration)
-- [Keybindings](#keybindings)
-- [License](#license)
-
 ## Connect to Network
 
 ```bash
@@ -57,7 +48,7 @@ sudo dnf remove -y waybar
 
 [Install Zed Editor](https://zed.dev/download)
 
-#### Claude Code (via npm)
+#### Claude Code
 
 [Install Claude Code](https://code.claude.com/docs/en/setup)
 
@@ -127,31 +118,27 @@ cat ~/.ssh/id_ed25519.pub
 - `Super+Shift+Space` - Toggle floating window
 - `Super+Return` - Games
 - `Super+Slash` - AI
-- `Super+a` - Archives
-- `Super+b` - Browser
-- `Super+c` - Code (text editor)
-- `Super+d` - Disks
-- `Super+e` - Email #1
-- `Super+Shift+e` - Email #2
-- `Super+f` - Files
-- `Super+g` - Git Repositories #1
-- `Super+Shift+g` - Git Repositories #2
-- `Super+i` - iCloud Notes
-- `Super+Shift+i` - iCloud Drive
-- `Super+l` - Lock
-- `Super+m` - Music
-- `Super+n` - Network (VPN)
-- `Super+Shift+n` - Network (Bluetooth)
-- `Super+p` - Printers
-- `Super+q` - Quit
-- `Super+r` - Record
+- `Super+A` - Archives
+- `Super+B` - Browser
+- `Super+C` - Code (text editor)
+- `Super+D` - Disks
+- `Super+E` - Email #1
+- `Super+Shift+E` - Email #2
+- `Super+F` - Files
+- `Super+G` - Git Repositories #1
+- `Super+Shift+G` - Git Repositories #2
+- `Super+I` - iCloud Notes
+- `Super+Shift+I` - iCloud Drive
+- `Super+L` - Lock
+- `Super+M` - Music
+- `Super+N` - Network (VPN)
+- `Super+Shift+N` - Network (Bluetooth)
+- `Super+P` - Printers
+- `Super+Q` - Quit
+- `Super+R` - Record
 - `Print` - Screenshot
-- `Super+t` - Torrent
-- `Super+v` - Volume
-- `Super+w` - Websites
-- `Super+x` - X
-- `Super+y` - YouTube
-
-## License
-
-This project is released under the [MIT](LICENSE).
+- `Super+T` - Torrent
+- `Super+V` - Volume
+- `Super+W` - Websites
+- `Super+X` - X
+- `Super+Y` - YouTube

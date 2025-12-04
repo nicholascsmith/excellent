@@ -27,7 +27,7 @@ chmod +x ~/excellent.sh
 ~/excellent.sh
 ```
 
-## Applications
+## Install Applications
 
 - [Brave Browser](https://brave.com/linux/)
 - [Claude Code](https://code.claude.com/docs/en/setup)
@@ -45,7 +45,7 @@ chmod +x ~/excellent.sh
 sudo dnf remove -y waybar
 ```
 
-### SDDM Auto-Login
+### SDDM
 
 ```bash
 sudo nano /etc/sddm.conf

@@ -57,7 +57,7 @@ Update **`[AutoLogin]`.** Replace **`<USERNAME>`** with **your username.**
 - `#Session=` → **`Session=sway`**
 - `#User=` → **`User=<USERNAME>`**
 
-### Git SSH
+### Git
 
 Replace **`<EMAIL>`** with **your email.**
 
@@ -69,8 +69,6 @@ cat ~/.ssh/id_ed25519.pub
 ```
 
 Add the output to your **[Codeberg SSH Keys](https://codeberg.org/user/settings/keys).**
-
-### Codeberg Token
 
 Replace **`<TOKEN>`** with **your Codeberg token.**
 

@@ -68,7 +68,7 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
-Add the output to **Codeberg** → **Settings** → **SSH/GPG Keys** → **Add Key**
+Add the output to your **[Codeberg SSH Keys](https://codeberg.org/user/settings/keys).**
 
 ### Codeberg Token
 

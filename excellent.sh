@@ -23,7 +23,8 @@ sudo dnf install -y \
     mako \
     NetworkManager-tui \
     npm \
-    transmission
+    transmission \
+    xfce-polkit
 
 echo "Enabling RPM Fusion..."
 sudo dnf install -y \
@@ -35,6 +36,13 @@ sudo dnf group install -y multimedia
 sudo dnf swap -y 'ffmpeg-free' 'ffmpeg' --allowerasing
 sudo dnf upgrade -y @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
 sudo dnf group install -y sound-and-video
+
+echo "Installing additional packages..."
+sudo dnf install -y intel-media-driver libva-utils
+sudo dnf install -y openh264 gstreamer1-plugin-openh264 mozilla-openh264
+sudo dnf swap -y mesa-va-drivers mesa-va-drivers-freeworld
+sudo dnf swap -y mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
+sudo dnf install -y p7zip p7zip-plugins unrar
 
 echo "Installing OBS..."
 flatpak install -y flathub com.obsproject.Studio

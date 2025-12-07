@@ -70,6 +70,32 @@ cat ~/.ssh/id_ed25519.pub
 
 Add the output to **Codeberg** → **Settings** → **SSH/GPG Keys** → **Add Key**
 
+### Codeberg Token
+
+Replace **`<TOKEN>`** with **your Codeberg token.**
+
+```bash
+echo 'export CODEBERG="<TOKEN>"' >> ~/.bashrc
+```
+
+**To create a new repository,** replace **`<REPO>`** with **your repository name:**
+
+```bash
+git init
+curl -X POST https://codeberg.org/api/v1/user/repos \
+  -H "Authorization: token $CODEBERG" \
+  -H "Content-Type: application/json" \
+  -d '{"name": "<REPO>", "private": false}'
+git remote add origin https://codeberg.org/ncarters/<REPO>.git
+git push
+```
+
+### Zoxide
+
+```bash
+echo 'eval "$(zoxide init bash)"' >> ~/.bashrc
+```
+
 ### Brave Browser
 
 **Extensions:**
@@ -106,6 +132,7 @@ Add the output to **Codeberg** → **Settings** → **SSH/GPG Keys** → **Add K
 - **`Super+Space`** - Terminal
 - **`Super+Shift+Space`** - Toggle floating window
 - **`Super+Return`** - Games
+- **`Super+Shift+Return`** - GeoGuessr
 - **`Super+Slash`** - AI
 - **`Super+A`** - Archives
 - **`Super+B`** - Browser

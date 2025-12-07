@@ -34,6 +34,3 @@ export VISUAL="zed --wait"
 alias grep='rg'
 alias cd='z'
 alias fetch='fastfetch'
-
-# Must stay at the end of the file
-eval "$(zoxide init bash)"

@@ -57,6 +57,33 @@ Update **`[AutoLogin]`.** Replace **`<USERNAME>`** with **your username.**
 - `#Session=` → **`Session=sway`**
 - `#User=` → **`User=<USERNAME>`**
 
+### Brave Browser
+
+**Extensions:**
+
+- Dark Reader
+- Proton Pass
+- SponsorBlock for YouTube
+
+**Toolbar:**
+
+- Add Bookmark
+- Bookmarks Panel
+- Downloads
+- Delete browsing data
+
+**Cookie Deletion Whitelist:**
+
+- https://codeberg.org
+- https://dash.cloudflare.com
+- https://github.com
+- https://www.icloud.com
+- https://music.apple.com
+- https://my.nextdns.io
+- https://proton.me
+- https://tuta.com
+- https://x.com
+
 ### Git
 
 Replace **`<EMAIL>`** with **your email.**
@@ -92,33 +119,6 @@ git remote add origin https://codeberg.org/ncarters/<REPO>.git
 ```bash
 echo 'eval "$(zoxide init bash)"' >> ~/.bashrc
 ```
-
-### Brave Browser
-
-**Extensions:**
-
-- Dark Reader
-- Proton Pass
-- SponsorBlock for YouTube
-
-**Toolbar:**
-
-- Add Bookmark
-- Bookmarks Panel
-- Downloads
-- Delete browsing data
-
-**Cookie Deletion Whitelist:**
-
-- https://codeberg.org
-- https://dash.cloudflare.com
-- https://github.com
-- https://www.icloud.com
-- https://music.apple.com
-- https://my.nextdns.io
-- https://proton.me
-- https://tuta.com
-- https://x.com
 
 ## Keybindings
 

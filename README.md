@@ -103,7 +103,7 @@ Replace **`<TOKEN>`** with **your Codeberg token.**
 echo 'export CODEBERG="<TOKEN>"' >> ~/.bashrc
 ```
 
-**To create a new repository,** replace **`<REPO>`** with **your repository name:**
+**To create a new repository,** replace **`<USERNAME>`** with **your username** and **`<REPO>`** with **your repository name:**
 
 ```bash
 git init
@@ -111,7 +111,7 @@ curl -X POST https://codeberg.org/api/v1/user/repos \
   -H "Authorization: token $CODEBERG" \
   -H "Content-Type: application/json" \
   -d '{"name": "<REPO>", "private": false}'
-git remote add origin https://codeberg.org/ncarters/<REPO>.git
+git remote add origin https://codeberg.org/<USERNAME>/<REPO>.git
 ```
 
 ### Zoxide

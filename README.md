@@ -5,7 +5,7 @@ An excellent configuration for Fedora Sway Spin.
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-- [Applications](#applications)
+- [Install Applications](#install-applications)
 - [Configuration](#configuration)
 - [Keybindings](#keybindings)
 
@@ -85,7 +85,6 @@ curl -X POST https://codeberg.org/api/v1/user/repos \
   -H "Content-Type: application/json" \
   -d '{"name": "<REPO>", "private": false}'
 git remote add origin https://codeberg.org/ncarters/<REPO>.git
-git push
 ```
 
 ### Zoxide

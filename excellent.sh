@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # Nicholas's Excellent Configuration for Fedora Sway Spin
-# https://github.com/nicholascsmith/excellent
+# https://codeberg.org/ncarters/excellent
 #
 
 set -euo pipefail
@@ -45,35 +45,40 @@ sudo dnf swap -y mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
 sudo dnf install -y p7zip p7zip-plugins unrar
 
 echo "Installing OBS..."
-flatpak install -y flathub com.obsproject.Studio
+flatpak install -y --verbose flathub com.obsproject.Studio
 
 # Configuration
 
 echo "Creating directories..."
 mkdir -pv ~/Videos/OBS ~/.config
 
+echo "Configuring SSH agent..."
+systemctl --user enable --now gcr-ssh-agent.socket
+mkdir -pv ~/.config/environment.d
+echo 'SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh' > ~/.config/environment.d/ssh-agent.conf
+
 # Clone repositories
 
 echo "Cloning dotfiles..."
-git clone --recurse-submodules https://github.com/nicholascsmith/excellent.git ~/excellent
+git clone --verbose --recurse-submodules https://codeberg.org/ncarters/excellent.git ~/excellent
 
 echo "Cloning wallpapers..."
-git clone https://github.com/nicholascsmith/wallpapers.git ~/Pictures/wallpapers
+git clone --verbose https://codeberg.org/ncarters/wallpapers.git ~/Pictures/wallpapers
 
 # Install dotfiles
 
 echo "Installing dotfiles..."
-cp ~/excellent/.bashrc ~/
-cp ~/excellent/.bash_profile ~/
-cp -r ~/excellent/dots/* ~/.config/
+cp -v ~/excellent/.bashrc ~/
+cp -v ~/excellent/.bash_profile ~/
+cp -rv ~/excellent/dots/* ~/.config/
 
 # Remove packages
 
 echo "Removing packages..."
-rm -rf ~/excellent
-killall dunst 2>/dev/null || true
+rm -rfv ~/excellent
+killall -v dunst 2>/dev/null || true
 sudo dnf remove -y firefox rofi dunst || true
-rm -rf ~/.mozilla || true
+rm -rfv ~/.mozilla || true
 
 echo ""
 echo "Done!"

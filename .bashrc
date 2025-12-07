@@ -30,7 +30,12 @@ PS1='\[\e[1;35m\]\u \[\e[1;90m\]\w\[\e[0m\] '
 export EDITOR="zed --wait"
 export VISUAL="zed --wait"
 
-# Tool replacements
 alias grep='rg'
 alias cd='z'
 alias fetch='fastfetch'
+alias mkdir='mkdir -pv'
+alias cp='cp -v'
+alias mv='mv -v'
+alias rm='rm -Iv'
+alias chmod='chmod -v'
+alias chown='chown -v'

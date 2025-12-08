@@ -27,6 +27,9 @@ chmod +x ~/excellent.sh
 ~/excellent.sh
 ```
 
+> [!NOTE]
+> To update the dotfiles repository, copy the modified dotfiles from `~/.config/` to `~/excellent/dots/` and push changes.
+
 ## Install Applications
 
 - [Brave Browser](https://brave.com/linux/)
@@ -38,12 +41,6 @@ chmod +x ~/excellent.sh
 - [Zed Editor](https://zed.dev/download)
 
 ## Configuration
-
-### Remove Waybar (Optional)
-
-```bash
-sudo dnf remove -y waybar
-```
 
 ### SDDM
 
@@ -118,6 +115,12 @@ git remote add origin https://codeberg.org/<USERNAME>/<REPO>.git
 
 ```bash
 echo 'eval "$(zoxide init bash)"' >> ~/.bashrc
+```
+
+### Remove Waybar (Optional)
+
+```bash
+sudo dnf remove -y waybar
 ```
 
 ## Keybindings

@@ -75,7 +75,6 @@ cp -rv ~/excellent/dots/* ~/.config/
 # Remove packages
 
 echo "Removing packages..."
-rm -rfv ~/excellent
 killall -v dunst 2>/dev/null || true
 sudo dnf remove -y firefox rofi dunst || true
 rm -rfv ~/.mozilla || true

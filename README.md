@@ -27,9 +27,6 @@ chmod +x ~/excellent.sh
 ~/excellent.sh
 ```
 
-> [!NOTE]
-> Copy modified configs from **`~/.config/`** to **`~/excellent/dots/`** and push to update [dots](https://codeberg.org/ncarters/dots).
-
 ## Install Applications
 
 - [Brave Browser](https://brave.com/linux/)

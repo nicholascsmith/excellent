@@ -28,7 +28,7 @@ chmod +x ~/excellent.sh
 ```
 
 > [!NOTE]
-> To update the dotfiles repository, copy the modified dotfiles from `~/.config/` to `~/excellent/dots/` and push changes.
+> To update the dotfiles later, copy the modified dotfiles from `~/.config/` to `~/excellent/dots/` and push changes to your repository.
 
 ## Install Applications
 
@@ -100,7 +100,7 @@ Replace **`<TOKEN>`** with **your Codeberg token.**
 echo 'export CODEBERG="<TOKEN>"' >> ~/.bashrc
 ```
 
-**To create a new repository,** replace **`<USERNAME>`** with **your username** and **`<REPO>`** with **your repository name:**
+**To create a new tory,** replace **`<USERNAME>`** with **your username** and **`<REPO>`** with **your tory name:**
 
 ```bash
 git init
@@ -141,8 +141,8 @@ sudo dnf remove -y waybar
 - **`Super+E`** - Email #1
 - **`Super+Shift+E`** - Email #2
 - **`Super+F`** - Files
-- **`Super+G`** - Git Repositories #1
-- **`Super+Shift+G`** - Git Repositories #2
+- **`Super+G`** - Git tories #1
+- **`Super+Shift+G`** - Git tories #2
 - **`Super+I`** - iCloud Notes
 - **`Super+Shift+I`** - iCloud Drive
 - **`Super+L`** - Lock

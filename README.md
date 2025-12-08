@@ -28,7 +28,7 @@ chmod +x ~/excellent.sh
 ```
 
 > [!NOTE]
-> To update the [dotfiles](https://codeberg.org/ncarters/dots) later, copy configurations from `~/.config/` to `~/excellent/dots/` and push changes.
+> To update [dots](https://codeberg.org/ncarters/dots): copy modified configs from **`~/.config/`** to **`~/excellent/dots/`** and push.
 
 ## Install Applications
 

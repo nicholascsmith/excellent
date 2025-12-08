@@ -28,7 +28,7 @@ chmod +x ~/excellent.sh
 ```
 
 > [!NOTE]
-> To update the dotfiles later, copy the modified dotfiles from `~/.config/` to `~/excellent/dots/` and push changes to your repository.
+> To update the dotfiles later, copy configurations from `~/.config/` to `~/excellent/dots/` and push changes to your repository.
 
 ## Install Applications
 
